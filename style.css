@@ -1,0 +1,57 @@
+.spanBlock {
+    display: block;
+    border: 1px solid blue;
+    background-color: yellow;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+.spanInline {
+    display: inline;
+    border: 1px solid blue;
+    background-color: yellow;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+.spanInlineBlock {
+    display: inline-block;
+    border: 1px solid blue;
+    background-color: yellow;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+/* row(by default), row-reverse, column, column-reverse*/
+.parent {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid black;
+    height: 600px;
+}
+.child {
+    font-size: 30px;
+    border: 1px solid red;
+    height: 60px;
+    width: 60px;
+}
+
+
+
+
+
+/* flex-direction: row(by default), row-reverse, column, column-reverse*/
+      /* justify-content: flex-start(by default), space-between,space-evenly, space-around  */
+      /* align-items */
+      .parent {
+        display: flex;
+        border: 1px solid black;
+        height: 600px;
+    }
+    .child {
+        font-size: 30px;
+        border: 1px solid red;
+        height: 60px;
+        width: 60px;
+    }
